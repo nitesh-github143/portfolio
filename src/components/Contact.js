@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div
-      className="bg-black py-12 bg-black text-white contact border-t border-gray-800 "
+      className="bg-black py-12 bg-black text-white contact border-t border-gray-800 p-4"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.93)), url( https://images.unsplash.com/photo-1493401415972-d4001c9fa2aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY1fHxwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60)",
@@ -27,7 +27,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-around ">
           <div className="p-6 sm:mx-40">
-            <p className="text-white font-Montserrat font-normal text-2xl text-center mx-12">
+            <p className="text-white font-Montserrat font-normal text-2xl text-center sm:mx-40">
               Want to know my journey or would like to chat with me, feel free
               to contact.
             </p>
