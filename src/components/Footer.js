@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-4 text-center border-t border-gray-800 ">
+    <footer className="bg-black text-white py-6 text-center border-t border-gray-800 ">
       <div className="container mx-auto">
         <p>
           &copy; {new Date().getFullYear()} Nitesh Chowdhary. All rights
@@ -16,12 +16,12 @@ const Footer = () => {
           >
             GitHub
           </Link>
-          <a
-            href="https://www.linkedin.com/in/nitesh-chowdhary-004327249/"
+          <Link
+            to="https://www.linkedin.com/in/nitesh-chowdhary-004327249/"
             className="text-gray-400 hover:text-white"
           >
             LinkedIn
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
